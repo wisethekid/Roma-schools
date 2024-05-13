@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roma Schools</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png" ></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="course.html">COURSE</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>ROMA GROUP OF SCHOOLS</h1>
+        <p>Roma schools is on e of the best schools locally in the country.</p>
+        <a href="about.html" class="hero-btn">Visit us to know more</a>
+    </div>
+</section>
+<!---course----->
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>We offer a variety of courses ranging from daycare to Grade 7</p>
+    <div class="row">
+<div class="course-col">
+    <h3>Intermediate</h3>
+    <p>This is for the intermediates</p>
+</div>
+<div class="course-col">
+    <h3>Middle school</h3>
+    <p>This is for the grade 1-5 students</p>
+</div>
+<div class="course-col">
+    <h3>Upper school</h3>
+    <p>This is for the grade 6 and 7</p>
+</div>
+
+
+    </div>
+
+</section>
+<!---branch-->
+<section class="campus">
+<h1>Our main branch</h1>
+<p>It is located along Kasarani</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/london.png">
+<div class="layer">
+    <h3>KASARANI</h3>
+</div>
+    </div>
+
+</div>
+
+</section>
+<!---facilities-->
+<section class="Facilities">
+    <h1>Our facilities</h1>
+    <p>We have a wide range of facilities that will be good for your child</p>
+<div class="row">
+    <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>Great library</h3>
+        <p>this isthe library</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>Basket ball</h3>
+        <p>this is the co-curricular activity that is most loved by our students</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>cafeteria</h3>
+        <p>We offer tasty and healthy food</p>
+    </div>
+
+
+
+</div>
+
+</section>
+<!--testimonials-->
+<section class="testimonials">
+<h1>testimonials</h1>
+<p>What our students say about the school</p>
+<div class="row">
+<div class="testimonials-col">
+    <img src="images/user1.jpg">
+<div>
+    <p>Roma group of schools is a great school as it has forstered great values in me such as leadership.</p>
+    <h3>Eve Muigai</h3>
+</div>
+</div>
+<div class="testimonials-col">
+    <img src="images/user2.jpg">
+<div>
+    <p>Roma group of schools is a great school as it has forstered great values in me such as discipline.</p>
+    <h3>Henry Kim</h3>
+</div>
+</div>
+
+</div>
+</section>
+<!---call to action-->
+<section class="cta">
+    <h1>Enroll for our various online courses<br> Anywhere in the three branches</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+<!--Footer-->
+<section class="footer">
+    <h4>About us</h4>
+<p>More info about the school</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+</div>
+</section>
+
+
+<!-------Javascript for toggle menu for phone------>
+    <script>
+var navLinks=document.getElementById("navLinks")
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+    </script>
+</body>
+</html>
